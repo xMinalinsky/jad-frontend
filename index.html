@@ -1,27 +1,30 @@
 <!doctype html>
 <html>
 <head>
-<title>Home</title>
-<link rel = "stylesheet" href="styles.css">
+<title>header</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<header>
+<nav>
     <a href ="index.html">
         <img class="logo" src="kfc.webp" alt="logo">
     </a>
-    <nav>
-        <ul class="nav__links">
-            <li><a href="tourlisting.html">Tour Listings</a></li>
-            <li><a href="review.html">Review</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a class="cta" href="login.html"><button>Log In</button></a>
+    <ul>
+        <li><a href="#">Tour Listing</a></li>
+        <li><a href="#">Review</a>
+        <ul>
+            <li><a href="#">Read Review</a></li>
+            <li><a href="#">Add Review</a></li>
+        </ul>
+    </li>
+        <li><a href="#">FAQ</a></li>
+        <li><a class="cta" href="login.html"><button>Log In</button></a>
             <ul>
                 <li><a href="editprofile.html">Edit Profile</a></li>
                 <li><a href="edittour.html">Edit Tours</a></li>
             </ul>
             </li>
         </ul>
-    </nav>
-</header>
+</nav>
 </body>
 </html>
